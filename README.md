@@ -28,7 +28,9 @@
 на попередній крок назад).
 
 Спосіб задання - adjacency list
+
 Тип графа - directed, unweighted
+
 Алгоритм - bfs
 
 
