@@ -49,3 +49,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+
+## Code Conventions
+
+In the project there are used all react and typescript code conventions and best practices
+including import order, naming conventions, react component structure, destructuring properties,
+avoiding big components, external css files, descriptive variable names
