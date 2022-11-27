@@ -1,0 +1,34 @@
+.controlNodeButton {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    background-color: #36b084;
+    color: aliceblue;
+    padding: 14px 28px;
+    margin: 0 15px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.itemFrame {
+    display: flex;
+    flex-direction: column;
+}
+
+.controlButtons {
+    display: flex;
+    align-items: center;
+}
+
+.adjacentNodeList {
+    display: flex;
+}
+
+.numbers {
+    display: flex;
+}
+
+.inputNode {
+    height: 40px;
+}

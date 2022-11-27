@@ -1,0 +1,40 @@
+.homeMain {
+    display: flex;
+    justify-content: center;
+}
+
+.homeMain__choice {
+    margin: 50px;
+}
+
+.topic {
+    background-color: #61dafb;
+    height: 60vh;
+    width: 25vw;
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    justify-content: center;
+}
+
+.startButton {
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #010c08;
+    color: aliceblue;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    font-size: 25px;
+    right: 43%;
+    bottom: 1%;
+}
