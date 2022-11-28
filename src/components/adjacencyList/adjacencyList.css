@@ -1,0 +1,24 @@
+.adjacencyList {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 10px;
+}
+
+.adjacencyListTitle {
+    font-size: 30px;
+}
+
+.addNodeButton {
+    display: block;
+    width: 98%;
+    border: none;
+    border-radius: 5px;
+    background-color: #36b084;
+    color: aliceblue;
+    padding: 14px 28px;
+    margin: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+}

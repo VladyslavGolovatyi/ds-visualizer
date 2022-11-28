@@ -1,0 +1,67 @@
+.button-subheading {
+  margin-top: 12px;
+  padding: 5px;
+  overflow-y: hidden;
+  font-size: 1.2em;
+  width: 20vw;
+}
+
+.fns {
+  height: 90px;
+  width: 79vw;
+  margin-left: 1vw;
+  background-color: #36b084;
+  border: #010c08 solid;
+}
+
+.visual {
+  width: 79vw;
+  margin-left: 1vw;
+  height: 570px;
+  border: 2px solid grey;
+  border-top: none;
+}
+
+.main-visual {
+  height: 855px;
+}
+
+section.interface {
+  width: 22vw;
+  height: 700px;
+  margin-top: 55px;
+  margin-right: 1vw;
+}
+
+div.buttons {
+  padding-left: 2vw;
+}
+
+div.page {
+  height: 180px;
+}
+
+div.tabs {
+  height: 56px;
+  width: 21vw;
+}
+
+section.interface div.head {
+  height: 40px;
+  margin-bottom: -3vh;
+  width: 10vw;
+}
+
+.hide {
+  display: none;
+  max-height: 0;
+}
+
+#presets {
+  height: 690px;
+  justify-content: space-between;
+}
+
+#algorithms, #algorithms div {
+  height: 690px;
+}
