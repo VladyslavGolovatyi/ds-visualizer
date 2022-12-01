@@ -1,0 +1,73 @@
+#popup{
+    position: fixed;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1000;
+    background: #fff;
+    width: 450px;
+    padding: 80px 50px 50px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+    transition: 0.5s;
+    visibility: hidden;
+}
+#popup.active{
+    visibility: visible;
+    top: 50%;
+}
+#popup .content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#popup .content img{
+    max-width: 80px;
+}
+#popup .content h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+    margin: 20px 0 10px;
+}
+#popup .content p{
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+#popup .content .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#popup .content .inputBox input{
+    width: 100%;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 15px;
+    outline: none;
+    font-size: 18px;
+}
+.btn{
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    font-size: 18px;
+    max-width: 150px;
+    background: #E57373;
+    color: #fff;
+    border: none;
+}
+.btn:hover {
+    background: #de3f3f;
+}
+.close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+}

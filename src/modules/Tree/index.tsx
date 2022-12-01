@@ -2,17 +2,16 @@ import './style.css'
 
 import React from 'react'
 
-import {AdjacencyList} from '../../components/adjacencyList/AdjacencyList'
-import {ControlPanel} from '../../components/controlPanelGraph/ControlPanel'
+import {ControlPanel} from '../../components/controlPanelTree/ControlPanel'
 import {Graph} from '../../components/graph/Graph'
 import {DataStoreProvider} from '../../store/context'
 
-const GraphModule: React.FunctionComponent = () => {
+const TreeModule: React.FunctionComponent = () => {
     return (
         <DataStoreProvider>
             <div>
                 <div className="flex-row">
-                    <div className="flex-column main-visual">
+                    <div className="main-visual">
                         <div className="flex-row fns">
                             <ControlPanel/>
                         </div>
@@ -21,10 +20,9 @@ const GraphModule: React.FunctionComponent = () => {
                         </section>
                     </div>
                 </div>
-                <AdjacencyList/>
             </div>
         </DataStoreProvider>
     )
 }
 
-export {GraphModule}
+export {TreeModule}

@@ -1,0 +1,21 @@
+.controlButton {
+    width: 70%;
+    border: none;
+    border-radius: 25px;
+    background-color: #010c08;
+    color: aliceblue;
+    padding: 14px 28px;
+    margin: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.inputNode {
+    height: 40px;
+}
