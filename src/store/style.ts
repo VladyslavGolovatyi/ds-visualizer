@@ -3,6 +3,7 @@ import cytoscape from 'cytoscape'
 const COLORS = {
   blue: '#041ba9',
   green: '#00FF00',
+  yellow: '#d1e70f',
   black: '#010c08',
 }
 
@@ -23,6 +24,16 @@ const nodeStyles: cytoscape.Stylesheet[] = [
       'background-color': COLORS.green,
       'line-color': COLORS.green,
       'target-arrow-color': COLORS.green,
+      'transition-property': 'background-color, line-color, target-arrow-color',
+      'transition-duration': 0.5,
+    },
+  },
+  {
+    selector: '.founded',
+    style: {
+      'background-color': COLORS.yellow,
+      'line-color': COLORS.yellow,
+      'target-arrow-color': COLORS.yellow,
       'transition-property': 'background-color, line-color, target-arrow-color',
       'transition-duration': 0.5,
     },

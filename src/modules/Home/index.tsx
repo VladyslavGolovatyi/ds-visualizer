@@ -14,7 +14,7 @@ const Home: React.FunctionComponent = () => {
         </div>
         <div className="homeMain__choice">
           <div className="topic">AVL tree</div>
-          <button className="startButton" onClick={() => (window.location.href = '/graph')}>
+          <button className="startButton" onClick={() => (window.location.href = '/tree')}>
             Start
           </button>
         </div>

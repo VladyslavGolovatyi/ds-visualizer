@@ -7,12 +7,14 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import {GraphModule} from './modules/Graph'
 import {Home} from './modules/Home'
 import reportWebVitals from './reportWebVitals'
+import {TreeModule} from "./modules/Tree";
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Switch>
         <Route path="/graph" component={GraphModule} />
+        <Route path="/tree" component={TreeModule} />
         <Route path="/" component={Home} />
       </Switch>
     </Router>
